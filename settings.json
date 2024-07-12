@@ -1,0 +1,21 @@
+{
+	"viaIR": true,
+	"evmVersion": "paris",
+	"optimizer": {
+		"enabled": true,
+		"runs": 10000000
+	},
+	"outputSelection": {
+		"*": {
+			"*": [
+				"evm.bytecode",
+				"evm.deployedBytecode",
+				"devdoc",
+				"userdoc",
+				"metadata",
+				"abi"
+			]
+		}
+	},
+	"libraries": {}
+}
